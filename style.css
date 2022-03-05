@@ -1,0 +1,81 @@
+/************** font ***************/
+
+
+@font-face {
+    font-family: 'logofont';
+    src: url('berkshireswash-regular-webfont.woff2') format('woff2'),
+         url('berkshireswash-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/***************************************/
+
+body {
+    background-color: #AD8B73;
+    color: #FFFBE9;
+    font-size:larger;
+    font-weight: 400;
+    font-style: italic;
+   
+}
+
+/******************link**************/
+
+a:link, a:visited, a:hover{
+    color: #AD8B73;
+
+}
+
+a {
+    text-decoration: none;
+    
+}
+/***********************************/
+.logo {
+    margin: auto;
+    text-align: center;
+    
+}
+
+h1 {
+    color:#361500 ;
+    font-family:logofont;
+    text-align: center;
+    
+}
+
+nav {
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family:logofont;
+    color:#FFFBE9 ;
+    background-color: #361500;
+    padding:14px;
+    
+    
+    
+}
+
+
+section {
+    margin-left: 300px;
+    margin-right: 300px;
+    
+}
+
+h2 {
+    font-family:logofont;
+    color: #AD8B73;
+}
+
+footer {
+    background-color: #361500;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 14px;
+    text-align: center;
+}
