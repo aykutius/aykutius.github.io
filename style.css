@@ -1,19 +1,7 @@
-/************** font ***************/
 
-
-@font-face {
-    font-family: 'logofont';
-    src: url('berkshireswash-regular-webfont.woff2') format('woff2'),
-         url('berkshireswash-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-/***************************************/
 
 body {
-    background-color:#AD8B73;
+    background-color:rgb(199, 196, 188);
     color:#361500;
     font-size:larger;
     font-weight:500;
@@ -35,30 +23,24 @@ a {
 /***********************************/
 .logo {
     margin: auto;
-    text-align: center;
-    margin-bottom: -25px;
+    text-align:left;
+    margin-bottom: -200px;
+    margin-left: 200px;
     
 }
 
-h1 {
-    color:#361500 ;
-    font-family:logofont;
-    text-align: center;
-    margin-bottom: 10px;
-    
-}
 
 nav {
     margin-left: 300px;
     margin-right: 300px;
     text-align: center;
-    text-transform: uppercase;
-    font-family:'Courier New', Courier, monospace;
-    color:#FFFBE9 ;
+    font-family:monospace;
+    color:rgb(199, 196, 188) ;
     background-color: #361500;
-    padding:14px;
+    margin-top: 87px;
     font-style: italic;
-    font-weight: 800;
+    font-weight: 300;
+    padding:14px;
     
    
     
@@ -67,26 +49,32 @@ nav {
 
 
 section {
-    margin-left: 300px;
+    margin-left: 440px;
     margin-right: 300px;
+    margin-top: 20px;
     
 }
 
-h2 {
-    font-family:logofont;
-    color: #AD8B73;
-    margin-top: 2px;
-    margin-bottom: 7px;
+
+.logo2{
+   margin-top: -35px;
+}
+
+h1{
+    font-size: 14px;
+
 }
 
 footer {
     background-color: #361500;
-    margin-left: 300px;
+    margin-left: 400px;
     margin-right: 300px;
-    padding: 14px;
+    margin-top: 40px;
+    margin-bottom: 10px;
     text-align: center;
     font-weight: 500;
     font-style: italic;
+    font-size: 14px;
     color: #AD8B73;
     
 }
