@@ -16,7 +16,7 @@ body {
     background-color: #AD8B73;
     color: #FFFBE9;
     font-size:larger;
-    font-weight: 400;
+    font-weight:500;
     font-style: italic;
    
 }
@@ -36,6 +36,7 @@ a {
 .logo {
     margin: auto;
     text-align: center;
+    margin-bottom: -25px;
     
 }
 
@@ -43,6 +44,7 @@ h1 {
     color:#361500 ;
     font-family:logofont;
     text-align: center;
+    margin-bottom: 10px;
     
 }
 
@@ -51,11 +53,14 @@ nav {
     margin-right: 300px;
     text-align: center;
     text-transform: uppercase;
-    font-family:logofont;
+    font-family:'Courier New', Courier, monospace;
     color:#FFFBE9 ;
     background-color: #361500;
     padding:14px;
+    font-style: italic;
+    font-weight: 800;
     
+   
     
     
 }
@@ -70,6 +75,8 @@ section {
 h2 {
     font-family:logofont;
     color: #AD8B73;
+    margin-top: 2px;
+    margin-bottom: 7px;
 }
 
 footer {
@@ -78,4 +85,8 @@ footer {
     margin-right: 300px;
     padding: 14px;
     text-align: center;
+    font-weight: 500;
+    font-style: italic;
+    
 }
+
