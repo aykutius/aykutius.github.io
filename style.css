@@ -13,8 +13,8 @@
 /***************************************/
 
 body {
-    background-color: #AD8B73;
-    color: #FFFBE9;
+    background-color:#AD8B73;
+    color:#361500;
     font-size:larger;
     font-weight:500;
     font-style: italic;
@@ -87,6 +87,7 @@ footer {
     text-align: center;
     font-weight: 500;
     font-style: italic;
+    color: #AD8B73;
     
 }
 
