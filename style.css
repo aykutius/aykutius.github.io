@@ -40,7 +40,7 @@ nav {
     background-color: #361500;
     margin-top: 87px;
     font-style: italic;
-    font-weight: 300;
+    font-weight:normal;
     padding:14px;
     border-style: double;
     border-radius: 100px;
@@ -52,7 +52,7 @@ nav {
 
 nav a{
     border-style: double;
-    border-radius: 100px;
+    border-radius: 5px;
     background-color:#D1BA80 ;
     padding: 30px;
 
@@ -66,7 +66,18 @@ section {
     
 }
 
+.box{
+    background-color:#D1BA80;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 20px;
+    border-style: double;
+    border-radius: 5px;
+    border-width: 10px;
+    padding: 10px;
 
+}
 .logo2{
    margin-top: -35px;
 }
